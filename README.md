@@ -11,6 +11,8 @@ Please refer to the corresponding master's thesis for an extensive description o
 
 ## Prerequisites
 
+:warning: **Archives are provided by [Git LFS](https://git-lfs.com/)**. Installation might be required to retrieve the .7z files correctly when cloning.
+
 To run the source code, [python](https://www.python.org/) is required. Set up other requirements by running:
 
 ```shell
@@ -30,8 +32,11 @@ git submodule update
 # Copy Ditto's config file
 mv -f ditto_config.json ditto/config.json
 
-# Extract the data archive
-7z e data.7z
+# Extract the data archives
+mkdir data
+7z x prompts.7z -odata/
+7z x train.7z -odata/
+7z x gold-standard.7z -odata/
 ```
 
 ## Running

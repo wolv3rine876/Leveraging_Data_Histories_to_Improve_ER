@@ -1,0 +1,723 @@
+[
+  
+  {
+    "name": "s_nhNewest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/test.txt.xl"
+  },
+  {
+    "name": "m_nhNewest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/test.txt.xl"
+  },
+  {
+    "name": "l_nhNewest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/test.txt.xl"
+  },
+  {
+    "name": "xl_nhNewest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNewest/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_nhOldest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/test.txt.xl"
+  },
+  {
+    "name": "m_nhOldest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/test.txt.xl"
+  },
+  {
+    "name": "l_nhOldest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/test.txt.xl"
+  },
+  {
+    "name": "xl_nhOldest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhOldest/test.txt.xl"
+  },
+
+  {
+    "name": "s_nhNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/test.txt.xl"
+  },
+  {
+    "name": "m_nhNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/test.txt.xl"
+  },
+  {
+    "name": "l_nhNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/test.txt.xl"
+  },
+  {
+    "name": "xl_nhNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/nhNearest/test.txt.xl"
+  },
+
+
+  {
+    "name": "bow_hist_notime",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/bow_hist_notime/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/bow_hist_notime/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/bow_hist_notime/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_concat_hist_asc",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/test.txt.xl"
+  },
+  {
+    "name": "m_concat_hist_asc",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/test.txt.xl"
+  },
+  {
+    "name": "l_concat_hist_asc",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/test.txt.xl"
+  },
+  {
+    "name": "xl_concat_hist_asc",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_asc/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_ao",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/test.txt.xl"
+  },
+  {
+    "name": "m_ao",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/test.txt.xl"
+  },
+  {
+    "name": "l_ao",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/test.txt.xl"
+  },
+  {
+    "name": "xl_ao",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ao/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_aoPair",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/test.txt.xl"
+  },
+  {
+    "name": "m_aoPair",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/test.txt.xl"
+  },
+  {
+    "name": "l_aoPair",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/test.txt.xl"
+  },
+  {
+    "name": "xl_aoPair",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoPair/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_aoUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/test.txt.xl"
+  },
+  {
+    "name": "m_aoUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/test.txt.xl"
+  },
+  {
+    "name": "l_aoUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/test.txt.xl"
+  },
+  {
+    "name": "xl_aoUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoUnq/test.txt.xl"
+  },
+  
+
+  {
+    "name": "s_aoSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/test.txt.xl"
+  },
+  {
+    "name": "m_aoSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/test.txt.xl"
+  },
+  {
+    "name": "l_aoSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/test.txt.xl"
+  },
+  {
+    "name": "xl_aoSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoSep/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_aoTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/test.txt.xl"
+  },
+  {
+    "name": "m_aoTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/test.txt.xl"
+  },
+  {
+    "name": "l_aoTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/test.txt.xl"
+  },
+  {
+    "name": "xl_aoTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_dmy/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_aoTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/test.txt.xl"
+  },
+  {
+    "name": "m_aoTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/test.txt.xl"
+  },
+  {
+    "name": "l_aoTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/test.txt.xl"
+  },
+  {
+    "name": "xl_aoTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTime_my/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_aoTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/test.txt.xl"
+  },
+  {
+    "name": "m_aoTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/test.txt.xl"
+  },
+  {
+    "name": "l_aoTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/test.txt.xl"
+  },
+  {
+    "name": "xl_aoTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/aoTUnion_my/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_concat_hist_time_period_days",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/test.txt.xl"
+  },
+  {
+    "name": "m_concat_hist_time_period_days",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/test.txt.xl"
+  },
+  {
+    "name": "l_concat_hist_time_period_days",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/test.txt.xl"
+  },
+  {
+    "name": "xl_concat_hist_time_period_days",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_days/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_concat_hist_time_period_text",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/test.txt.xl"
+  },
+  {
+    "name": "m_concat_hist_time_period_text",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/test.txt.xl"
+  },
+  {
+    "name": "l_concat_hist_time_period_text",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/test.txt.xl"
+  },
+  {
+    "name": "xl_concat_hist_time_period_text",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/concat_hist_time_period_text/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_ro",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/test.txt.xl"
+  },
+  {
+    "name": "m_ro",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/test.txt.xl"
+  },
+  {
+    "name": "l_ro",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/test.txt.xl"
+  },
+  {
+    "name": "xl_ro",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/ro/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_roUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/test.txt.xl"
+  },
+  {
+    "name": "m_roUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/test.txt.xl"
+  },
+  {
+    "name": "l_roUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/test.txt.xl"
+  },
+  {
+    "name": "xl_roUnq",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roUnq/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_roSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/test.txt.xl"
+  },
+  {
+    "name": "m_roSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/test.txt.xl"
+  },
+  {
+    "name": "l_roSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/test.txt.xl"
+  },
+  {
+    "name": "xl_roSep",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roSep/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_roTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/test.txt.xl"
+  },
+  {
+    "name": "m_roTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/test.txt.xl"
+  },
+  {
+    "name": "l_roTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/test.txt.xl"
+  },
+  {
+    "name": "xl_roTime_dmy",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_dmy/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_roTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/test.txt.xl"
+  },
+  {
+    "name": "m_roTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/test.txt.xl"
+  },
+  {
+    "name": "l_roTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/test.txt.xl"
+  },
+  {
+    "name": "xl_roTime_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTime_my/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_roTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/test.txt.xl"
+  },
+  {
+    "name": "m_roTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/test.txt.xl"
+  },
+  {
+    "name": "l_roTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/test.txt.xl"
+  },
+  {
+    "name": "xl_roTUnion_my",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/roTUnion_my/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_zipped",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/test.txt.xl"
+  },
+  {
+    "name": "m_zipped",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/test.txt.xl"
+  },
+  {
+    "name": "l_zipped",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/test.txt.xl"
+  },
+  {
+    "name": "xl_zipped",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipped/test.txt.xl"
+  },
+
+
+  {
+    "name": "s_zipNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/train.txt.s",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/valid.txt.s",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/test.txt.xl"
+  },
+  {
+    "name": "m_zipNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/train.txt.m",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/valid.txt.m",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/test.txt.xl"
+  },
+  {
+    "name": "l_zipNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/train.txt.l",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/valid.txt.l",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/test.txt.xl"
+  },
+  {
+    "name": "xl_zipNearest",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/train.txt.xl",
+    "validset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/valid.txt.xl",
+    "testset": "/hpi/fs00/share/fg/naumann/sebastian.apitz/src/data/prompts/zipNearest/test.txt.xl"
+  }

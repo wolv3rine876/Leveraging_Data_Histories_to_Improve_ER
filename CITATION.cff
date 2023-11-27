@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Leveraging Data Histories to Improve Entity Resolution
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sebastian
+    family-names: Apitz
+    affiliation: Hasso Plattner Institut
+repository-code: >-
+  https://github.com/wolv3rine876/Leveraging_Data_Histories_to_Improve_ER
+keywords:
+  - Entity Resolution
+  - Temporal Data
+  - Wikipedia
+license: MIT

@@ -41,11 +41,11 @@ mkdir data
 
 ## Running
 
-In general, the depicted pipeline runs for multiple days. [data.7z](data.7z) contains 1) the annotated gold standard, 2) the sampled training data with 200.000 pairs, and 3) the generated prompts. Hence, it is possible to shortcut some stages and start with data based on a [dump of the English Wikipedia from the 1st of June 2023](https://dumps.wikimedia.org/enwiki/20230601/).
+In general, the depicted pipeline runs for multiple days. [gold-standard.7z](gold-standard.7z), [train.7z](train.7z), and [prompts.7z](prompts.7z) contain 1) the annotated gold standard, 2) the sampled training data with 200.000 pairs, and 3) the generated prompts. Hence, it is possible to shortcut some stages and start with data based on a [dump of the English Wikipedia from the 1st of June 2023](https://dumps.wikimedia.org/enwiki/20230601/).
 
 ### Stages 1-4
 
-Please refer to the submodule [wiki-row-col-matcher](wiki-row-col-matcher).
+Please refer to the submodule [wiki-row-col-matcher](https://github.com/wolv3rine876/wiki-row-col-matcher).
 
 ### Filtering
 
